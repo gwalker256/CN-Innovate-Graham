@@ -10,6 +10,28 @@ print ("hello")
 
 # print(countries)
 
+fav_songs = [
+    {"artist" : "", "song_name" : "","genre" : "", "release_year" : ""},
+    {"artist" : "", "song_name" : "","genre" : "", "release_year" : ""},
+    {"artist" : "", "song_name" : "","genre" : "", "release_year" : ""},
+    {"artist" : "", "song_name" : "","genre" : "", "release_year" : ""}
+]
+
+fav_songs[0]["artist"]="Radiohead"
+
+print (fav_songs)
+
+fav_songs[0]["artist"]="Blur"
+
+print (fav_songs)
+
+fav_songs.pop(0)
+
+print (fav_songs)
+
+fav_songs.append({"artist" : "", "song_name" : "","genre" : "", "release_year" : ""})
+
+print (fav_songs)
 
 # print(complex_dict["one"]["name"])
 
