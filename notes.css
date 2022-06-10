@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
+
+body {
+  background-color: aquamarine;
+  /* font-size: clamp(1em, 3vh, 4); */
+  font-family: "Anton", sans-serif;
+}
+/* 
+flexbox browser tools */
+
+/* import fonts in CSS */
+
+.biglink {
+  font-size: 3em;
+}
+
+#leachpic {
+  width: 30%;
+}
+
+a:hover {
+  background-color: blue;
+}
