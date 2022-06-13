@@ -1,0 +1,22 @@
+
+
+.container{
+    display: flex;
+    flex-direction:column;
+    
+}
+
+.box{
+    background-color: rgb(170, 180, 255);
+    margin-bottom: 5%;
+    height: 25vw;
+    width: 70vw;
+}
+
+@media (min-width: 600px) {
+
+.container{
+    flex-direction: row;
+}
+
+}
